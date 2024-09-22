@@ -7,11 +7,14 @@ https://www.sciencedirect.com/science/article/abs/pii/S1746809423013733
 
 In this research, an innovative method to improve the data augmentation of one-dimensional signals has been presented.
 To better recognize and classify data with deep convolutional neural networks.
-6 data augmentation methods has been used: 1- Scale change, 2- Time deviation, 3- Amplitude deviation, 4- Frequency component deviation, 5- Gaussian (A state such as jittering augmentation but with special selection and deviation according to GDO article) data augmentation with 6- LSTM and 7- GAN networks. 
- The innovation of research is determining the appropriate intensity and share and volume for each of them, And even dedicated for each class, Selection with appropriate statistical dispersion.
+6 data augmentation methods has been used: 1- Scaling 2- Time warping 3- Magnitude warping 4- Frequency component warping 5- Gaussian (A state such as jittering augmentation but with special selection and deviation according to GDO article)  6- LSTM  7- GAN . 
+ The innovation of research is determining the appropriate intensity and share and volume for each of data augmentation methods, And even dedicated for each class sorting augmented data according to several quality mesurements and Selecting a part of them with appropriate statistical dispersion.
 
 The MITBIH database, which contains one-dimensional signals of different classes of cardiac arrhythmias, has been tested. Also, other data that have been reviewed in my master's thesis have also been included.
 
+
+
+Tips:
 
 1- Codes that have the term 0CNN in their name; They choose the superior convolutional neural network architecture. The architectures include: 1-simple architecture 2-simple deep architecture 3-ResNext architecture is examined with different depths. Heartbeats are extracted from each long-term signal and classification and labeling are done, and the label and class in Long-term signal fragments that are repeated more often are the final label. The classification accuracy of each class is obtained and recorded from the results of this code to be used for the beta index in step 4.
 
